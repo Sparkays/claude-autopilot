@@ -1,9 +1,9 @@
 {
-  "name": "claude-autopilot",
-  "version": "1.0.0",
+  "name": "@sparkays/claude-autopilot",
+  "version": "1.0.1",
   "description": "Self-driving GSD orchestrator for Claude Code. One command to plan, parallelize, and grind through phases until done.",
   "bin": {
-    "claude-autopilot": "./bin/cli.js"
+    "claude-autopilot": "bin/cli.js"
   },
   "keywords": [
     "claude-code",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sparkays/claude-autopilot"
+    "url": "git+https://github.com/Sparkays/claude-autopilot.git"
   },
   "homepage": "https://github.com/Sparkays/claude-autopilot#readme",
   "bugs": {
