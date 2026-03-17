@@ -1,0 +1,45 @@
+{
+  "name": "claude-autopilot",
+  "version": "1.0.0",
+  "description": "Self-driving GSD orchestrator for Claude Code. One command to plan, parallelize, and grind through phases until done.",
+  "bin": {
+    "claude-autopilot": "./bin/cli.js"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "ai",
+    "agent",
+    "orchestration",
+    "gsd",
+    "get-shit-done",
+    "autopilot",
+    "multi-agent",
+    "subagents",
+    "parallel",
+    "workflow",
+    "automation"
+  ],
+  "author": "Sparkays",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sparkays/claude-autopilot"
+  },
+  "homepage": "https://github.com/Sparkays/claude-autopilot#readme",
+  "bugs": {
+    "url": "https://github.com/Sparkays/claude-autopilot/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "commands/",
+    "hooks/",
+    "NOTICE",
+    "LICENSE",
+    "README.md"
+  ]
+}
